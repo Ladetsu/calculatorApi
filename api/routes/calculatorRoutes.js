@@ -5,5 +5,4 @@ module.exports = function(app){
 
   app.route('/calculus')
     .get(calculator.get_calculus);
-
   };
